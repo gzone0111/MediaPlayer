@@ -3,11 +3,12 @@
  */
 package mediaPlayer;
 
-public class Library {
+public class Main {
     public boolean someLibraryMethod() {
         return true;
     }
-    public static void main() {
+    public static void main(String[] args) {
         System.out.println("Hello World");
+        UIApplication.run(args);
     }
 }
